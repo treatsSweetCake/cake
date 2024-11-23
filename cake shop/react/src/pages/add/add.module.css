@@ -1,0 +1,135 @@
+.mainContent {
+    padding: 10px;
+}
+
+.addpageContent {
+    width: 95%;
+    padding: 30px;
+    max-width: 650px;
+    background-color: #fff7f0;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.addpageContent h1 {
+    color: #d2691e;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.addpageContent p {
+    color: #8d6e63;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.addpageForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addpageFormGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.addpageLabel {
+    font-size: 1rem;
+    color: #795548;
+    margin-bottom: 8px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.addpageInput,
+.addpageTextarea {
+    padding: 12px;
+    border: 1.5px solid #e0a07c;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    color: #5d4037;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.addpageInput:focus,
+.addpageTextarea:focus {
+    border-color: #f48fb1;
+    box-shadow: 0px 4px 8px rgba(240, 98, 146, 0.2);
+    outline: none;
+}
+
+.submitButton {
+    background-color: #f48fb1;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.submitButton:hover {
+    background-color: #ec407a;
+    box-shadow: 0px 4px 8px rgba(236, 64, 122, 0.3);
+}
+
+.submitButton:active {
+    background-color: #d81b60;
+}
+
+.addpageTextarea {
+    height: 80px;
+    resize: none;
+}
+
+.uploadDropArea {
+    border: 2px dashed #e0a07c;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #f8f3f0;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    text-align: center;
+    position: relative;
+}
+
+.uploadDropArea:hover {
+    background-color: #ffe6e6;
+}
+
+.uploadDropArea:active {
+    background-color: #ffd1d1;
+}
+
+.dragging {
+    background-color: #ffd9d9;
+    border-color: #ec407a;
+}
+
+.hiddenFileInput {
+    display: none;
+}
+
+.imagePreview {
+    width: 100%;
+    height: 100%;
+    max-width: 120px;
+    max-height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
